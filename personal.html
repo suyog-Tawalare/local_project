@@ -1,0 +1,100 @@
+Initializing a Repository:
+
+git init: Initializes a new Git repository.
+Cloning a Repository:
+
+git clone <repository-url>: Creates a copy of a remote repository on your local machine.
+Configuring Git:
+
+git config --global user.name "Your Name": Sets your name.
+git config --global user.email "you@example.com": Sets your email.
+Checking Repository Status:
+
+git status: Shows the status of changes as untracked, modified, or staged.
+Staging Changes:
+
+git add <file>: Adds a file to the staging area.
+git add .: Adds all changes to the staging area.
+Committing Changes:
+
+git commit -m "Your commit message": Commits changes to the local repository.
+Viewing Commit History:
+
+git log: Displays a log of all commits.
+git log --oneline: Displays a condensed version of the commit log.
+Branching:
+
+git branch: Lists all branches.
+git branch <branch-name>: Creates a new branch.
+git checkout <branch-name>: Switches to a branch.
+git merge <branch-name>: Merges changes from one branch to another.
+Remote Repositories:
+
+git remote -v: Shows the remote repositories.
+git remote add <remote-name> <repository-url>: Adds a remote repository.
+Pushing and Pulling:
+
+git push <remote-name> <branch-name>: Pushes changes to a remote repository.
+git pull <remote-name> <branch-name>: Pulls changes from a remote repository.
+Undoing Changes:
+
+git reset <file>: Unstages changes.
+git checkout -- <file>: Discards changes in the working directory.
+Tagging:
+
+git tag -a <tag-name> -m "Your tag message": Creates an annotated tag.
+Ignoring Files:
+
+Create a file named .gitignore and list files and patterns to be ignored.
+These are just a few basic Git commands. Git has a rich set of features, so you might encounter more commands and options as you delve deeper into its capabilities. For more details on any specific command, you can use git --help or git <command> --help.
+
+
+
+
+User
+give me list
+ChatGPT
+Certainly! Here's a more comprehensive list of Git commands categorized by their use:
+
+Basic Commands:
+git init: Initializes a new Git repository.
+git clone <repository-url>: Creates a copy of a remote repository on your local machine.
+git config --global user.name "Your Name": Sets your name globally.
+git config --global user.email "you@example.com": Sets your email globally.
+Status and Changes:
+git status: Shows the status of changes in your working directory.
+git diff: Shows changes between commits, commit and working tree, etc.
+git add <file>: Adds a file to the staging area.
+git commit -m "Your commit message": Commits changes to the local repository.
+git log: Displays the commit history.
+Branching and Merging:
+git branch: Lists all branches.
+git branch <branch-name>: Creates a new branch.
+git checkout <branch-name>: Switches to a branch.
+git merge <branch-name>: Merges changes from one branch to another.
+git stash: Temporarily saves changes that are not ready to be committed.
+Remote Repositories:
+git remote -v: Shows the remote repositories.
+git remote add <remote-name> <repository-url>: Adds a remote repository.
+git push <remote-name> <branch-name>: Pushes changes to a remote repository.
+git pull <remote-name> <branch-name>: Pulls changes from a remote repository.
+Tagging:
+git tag -a <tag-name> -m "Your tag message": Creates an annotated tag.
+git tag: Lists all tags.
+Undoing Changes:
+git reset <file>: Unstages changes.
+git checkout -- <file>: Discards changes in the working directory.
+Collaboration:
+git fetch: Fetches changes from a remote repository.
+git merge origin/<branch-name>: Merges changes from a remote branch.
+git branch -d <branch-name>: Deletes a local branch.
+git push origin --delete <branch-name>: Deletes a remote branch.
+Submodules:
+git submodule add <repository-url>: Adds a submodule.
+git submodule update --init --recursive: Initializes and updates submodules.
+Gitignore:
+Create a file named .gitignore and list files and patterns to be ignored.
+Advanced:
+git rebase: Reapplies changes on top of another base commit.
+git cherry-pick <commit>: Applies changes introduced by a specific commit.
+Remember that Git has a vast set of features, and this list covers commonly used commands. You can explore more about each command and their options in the official Git documentation (git --help or git <command> --help).
